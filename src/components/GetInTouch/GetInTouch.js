@@ -17,7 +17,7 @@ class GetInTouch extends Component {
                     <SectionTitle
                         title="Get In Touch"
                         subtitle="Contact"
-                        desc="Porttitor dolor donec pulvinar tortor nisi quis dapibus tortor commodo sed Pellentesque hendrerit pellentesque libero nec sollicitudin."
+                        desc="Join the family and recieve our newletter, blog posts, rewards, and gain access to a one of a kind network of travelers"
                     />
                         <Row className="mt-5 pt-2">
                             <Col lg={5}>
@@ -51,7 +51,7 @@ class GetInTouch extends Component {
                                         <Media className="media mt-4">
                                             <i className="mdi mdi-email text-primary h4"></i>
                                             <Media body className="ml-4">
-                                                <p className="text-muted">Email: Fredflinstone@awesome.com</p>
+                                                <p className="text-muted">Email: info@surreal.com</p>
                                             </Media>
                                         </Media>
 

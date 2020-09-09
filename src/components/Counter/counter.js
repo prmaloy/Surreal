@@ -10,12 +10,12 @@ import img2 from "../../assets/images/features/surrealfeature4.jpg";
 class Counter extends Component {
     state = {
         counters1 : [
-            { icon : "mdi mdi-heart", title : "Happy Clients", end : 485 },
-            { icon : "mdi mdi-layers", title : "Projects Compleated", end : 536 }
+            { icon : "mdi mdi-emoticon-cool", title : "Happy Clients", end : 40585 },
+            { icon : "mdi mdi-account-plus", title : "Repeat Clients", end : 37541 }
         ],
         counters2 : [
-            { icon : "mdi mdi-cloud-download", title : "Files Downloaded", end : 1662 },
-            { icon : "mdi mdi-code-not-equal-variant", title : "Liens Of Code", end : 14652 }
+            { icon : "mdi mdi-heart", title : "Joined The Surreal Family", end : 24251 },
+            { icon : "mdi mdi-percent", title : "Client Retention", end : 91 }
         ]
     }
     render() {
@@ -28,7 +28,7 @@ class Counter extends Component {
                                 <div className="counter-box">
                                     <Col lg={12}>
                                         <h4>Our Achivements</h4>
-                                        <p className="text-muted mt-2">Porttitor dolor donec pulvinar tortor nisi quis dapibus tortor commodo Pellentesque hendrerit pellentesque libero nec sollicitudin.</p>
+                                        <p className="text-muted mt-2">Our repeat travelers are much more than clients, they're family! We are building a large community of travelers and cultivating lifetime friendships. Join the family today!</p>
 
                                         <div className="mt-4">
                                             <Row id="counter">

@@ -13,9 +13,9 @@ class Cta extends Component {
                         <Col lg={12}>
                             <div className="text-cebter">
                                 <h2 className="text-white text-center">Become a part of Surreals community today</h2>
-                                <p className=" text-white text-center mt-3">Molestias excepturi sint occaecati cupiditate non provident</p>
+                                <p className=" text-white text-center mt-3">Our repeat travelers are much more than clients, they're family! </p>
                                 <div className="text-center mt-4">
-                                    <Link to="#" className="btn btn-primary mt-2">Get Started</Link>
+                                    <Link to="#" className="btn btn-primary mt-2">Connect With Us</Link>
                                 </div>
                             </div>
                         </Col>

@@ -16,10 +16,10 @@ import team4 from "../../assets/images/users/img-4.jpg";
 class OurTeam extends Component {
     state = {
         members : [
-            { img : team1, name : "Juliana Waddell", post : "Founder", desc : "Consequat conllis Vebulum ante ipsum primis faubus orci cubilia Curae." },
-            { img : team2, name : "Tyler Raymer", post : "Developer", desc : "Consequat conllis Vebulum ante ipsum primis faubus orci cubilia Curae." },
-            { img : team3, name : "Chris Lewis", post : "Designer", desc : "Consequat conllis Vebulum ante ipsum primis faubus orci cubilia Curae." },
-            { img : team4, name : "Juliana Waddell", post : "Manager", desc : "Consequat conllis Vebulum ante ipsum primis faubus orci cubilia Curae." },
+            { img : team1, name : "Ross Westerfield", post : "Travel Agent", desc : "From Harrisburg, Pennsylvania Sam has been on the team for 6 years." },
+            { img : team2, name : "Tyler Raymer", post : "Travel Agent", desc : "From Raleigh, North Carolina Tyler has been on the team for 8 years." },
+            { img : team3, name : "Anna Lewis", post : "Travel Agent", desc : "From Austin, Texas Anna has been on the team for 9 years." },
+            { img : team4, name : "Jonathan Waddell", post : "Manager", desc : "From Harrisburg, Pennsylvania Jonathan has been on the team for 9 years." },
         ]
     }
     render() {
@@ -28,9 +28,9 @@ class OurTeam extends Component {
                 <section className="section" id="team">
                     <Container>
                     <SectionTitle
-                        title="Our Teams"
-                        subtitle="Minds"
-                        desc="Porttitor dolor donec pulvinar tortor nisi quis dapibus tortor commodo sed Pellentesque hendrerit pellentesque libero nec sollicitudin."
+                        title="Our Team"
+                        subtitle="Meet"
+                        desc="Experience... ours will make yours perfect. Our team of travel agents is experienced and passionate about creating life changing experiances"
                     />
                         <Row className="mt-5 pt-2">
                             <TeamBox members={this.state.members} />

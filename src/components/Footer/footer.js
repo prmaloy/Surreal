@@ -9,14 +9,14 @@ import LinkSection from "./link-section";
 class Footer extends Component {
     state = {
         links1 : [
-            { link : "#", title : "Monitoring Grader" },
-            { link : "#", title : "Video Tutorial" },
-            { link : "#", title : "Term & Service" },
-            { link : "#", title : "Tulsy API" },
+            { link : "#", title : "Exchange Rates" },
+            { link : "#", title : "Travel Tips" },
+            { link : "#", title : "Visa Information" },
+            { link : "#", title : "Passport Services" },
         ],
         links2 : [
-            { link : "#", title : "Sign Up" },
-            { link : "#", title : "Login" },
+            { link : "#", title : "Contact Us" },
+            { link : "#", title : "Our Travel App" },
             { link : "#", title : "Terms of Services" },
             { link : "#", title : "Privacy Policy" },
         ],
@@ -54,7 +54,7 @@ class Footer extends Component {
                             <Col lg={3}>
                                 <div className="mt-2">
                                     <h6 className="text-white text-uppercase f-16">Surreal</h6>
-                                    <p className="text-white-50 mt-3 pt-2 mb-0 ">Semper nibh a dignissim Integer cursus tempsed quis justo molis starm the consectetur.</p>
+                                    <p className="text-white-50 mt-3 pt-2 mb-0 ">We’ll make your next vacation cheap and easy for you and your family. Offering great deals on flights, public notary, and insurance.</p>
                                     <div className="mt-4">
                                         <ul className="list-inline footer-social mb-0">
                                             {
@@ -73,13 +73,13 @@ class Footer extends Component {
 
                             <Col lg={3}>
                                 <div className="mt-2 pl-0 pl-lg-5">
-                                    <LinkSection title="Resaurses" links={this.state.links1} />
+                                    <LinkSection title="Resourses" links={this.state.links1} />
                                 </div>
                             </Col>
 
                             <Col lg={2}>
                                 <div className="mt-2">
-                                    <LinkSection title="Help" links={this.state.links1} />
+                                    <LinkSection title="Help" links={this.state.links2} />
                                 </div>
                             </Col>
 
@@ -91,7 +91,7 @@ class Footer extends Component {
                                             <Media>
                                                 <i className="mdi mdi-twitter text-white-50 float-left"></i>
                                                 <Media body>
-                                                    <p className="text-white-50 pl-3">Pleasures have to repudiated annoyances accepted therefore always holds chooses enjoy a pleasure consequences.</p>
+                                                    <p className="text-white-50 pl-3">You can get paid six figures to Ski and Nanny in Aspen this year!</p>
                                                 </Media>
                                             </Media>
                                         </div>
@@ -99,7 +99,7 @@ class Footer extends Component {
                                             <Media>
                                                 <i className="mdi mdi-twitter text-white-50 float-left"></i>
                                                 <Media body>
-                                                    <p className="text-white-50 pl-3">Greater pleasures el esndures pains avoid welcomed avoided pariatu</p>
+                                                    <p className="text-white-50 pl-3">U.S. Opens over 500 miles of new bike trails - including a gorgeous mountainous stretch of California.</p>
                                                 </Media>
                                             </Media>
                                         </div>

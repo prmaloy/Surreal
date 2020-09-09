@@ -12,18 +12,18 @@ import { Container,
 import SectionTitle from "../common/section-title";
 
 //Import Images
-import img1 from "../../assets/images/users/img-1.jpg";
-import img2 from "../../assets/images/users/img-2.jpg";
-import img3 from "../../assets/images/users/img-3.jpg";
+import img1 from "../../assets/images/users/img-8.jpg";
+import img2 from "../../assets/images/users/img-10.jpg";
+import img3 from "../../assets/images/users/img-6.jpg";
 
 class Clients extends Component {
     constructor(props) {
         super(props);
         this.state = {
             items : [
-                { id : 1, image: img1, title : "Jennifer Shapiro", subtitle : "Frontend", desc : "The European languages are members of the same family Their separate existence is a myth For science, music, sport, etc, europe their languages common words." },
-                { id : 2, image: img2, title : "Brandon Carney", subtitle : "Designer", desc : "The European languages are members of the same family Their separate existence is a myth For science, music, sport, etc, europe their languages common words." },
-                { id : 3, image: img3, title : "William Mooneyhan", subtitle : "Developer", desc : "The European languages are members of the same family Their separate existence is a myth For science, music, sport, etc, europe their languages common words." },
+                { id : 1, image: img1, title : "Brandon Patchet", subtitle : "Accountant", desc : "Traveling - it leaves you speechless, then turns you into a story teller" },
+                { id : 2, image: img2, title : "Tim Walance", subtitle : "Entrepreneur", desc : "My mother wanted to take a rare vacation and Anna helped us put an itinerary together that worked for us.  To quote my mother 'She thought of everything!'" },
+                { id : 3, image: img3, title : "Chad Mooney", subtitle : "Business Owner", desc : "The journey changes you. It leaves marks on your memory, on your consciousness, on your heart, and on your body. You take something with you. Hopefully, you leave something good behind." },
             ],
             activeIndex : 0
         }
@@ -99,7 +99,7 @@ class Clients extends Component {
                     <Container>
                     <SectionTitle
                         title="TESTIMONIALS"
-                        desc="Porttitor dolor donec pulvinar tortor nisi quis dapibus tortor commodo sed Pellentesque hendrerit pellentesque libero nec sollicitudin."
+                        desc="We believe that travel should be an experience. A journey that will enrich your life, open your eyes to diversity and leave you fulfilled."
                         isLight={true}
                     />
 

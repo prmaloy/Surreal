@@ -15,9 +15,9 @@ class Blog extends Component {
         super(props);
         this.state = {
             blogs : [
-                { img : blog1, title : "How do I find a safe desination?", category : "Travel, Family", date : "25", month : "Jan", desc : "Pellensque pharetra diamt tricies pharetra tortor in tha starc amet semper smart dapibus tortor in maximus." },
-                { img : blog2, title : "Find hidden destinations.", category : "Travel, Adventure", date : "12", month : "Feb", desc : "Semper felis pharetr ultricies justo ornare eget consectetur venenatis they at pharetra metus eleifend rutrum pulvinar" },
-                { img : blog3, title : "Sailing is a lifestyle!", category : "Travel, Adventure", date : "31", month : "Jun", desc : "Curabitur labore pharetra quis lacia dolor convais honcus nulla porta stiyo vitae a eros felis iaculis in imperdiet." },
+                { img : blog1, title : "How do I find a safe desination?", category : "Travel, Family", date : "25", month : "Jan", desc : "After months of uncertainty amid the global pandemic, optimism is again on the rise." },
+                { img : blog2, title : "Find hidden destinations.", category : "Travel, Adventure", date : "12", month : "Feb", desc : "When I decided to take that bucket list trip the last thing I wanted was to spend my time on packed busses " },
+                { img : blog3, title : "Sailing is a lifestyle!", category : "Travel, Adventure", date : "31", month : "Jun", desc : "I left the corporate life behind and decided to become a full time sailor. This is how I succeeded" },
             ]
         }
     }
@@ -30,7 +30,7 @@ class Blog extends Component {
                     <SectionTitle
                         title="Our Blog"
                         subtitle="News"
-                        desc="Porttitor dolor donec pulvinar tortor nisi quis dapibus tortor commodo sed Pellentesque hendrerit pellentesque libero nec sollicitudin."
+                        desc="Check out our blog for awesome adventure stories, travel hacks, travel warnings, and travel meetup events!"
                     />
                         <Row className="mt-5 pt-2">
                             <BlogBox blogs={this.state.blogs} />

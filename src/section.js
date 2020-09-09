@@ -10,12 +10,12 @@ import {
 } from "reactstrap";
 
 //Importing Modal
-import ModalSection from '../../components/common/ModalSection';
+import ModalSection from './components/common/ModalSection';
 
 //Import Images
-import bg1 from "../../assets/images/surreal16.jpg";
-import bg2 from "../../assets/images/surreal17.jpg";
-import bg3 from "../../assets/images/surreal6.jpg";
+import bg1 from "./assets/images/bg-1.jpg";
+import bg2 from "./assets/images/bg-2.jpg";
+import bg3 from "./assets/images/bg-3.jpg";
 
 
 class Section extends Component {
@@ -103,7 +103,9 @@ class Section extends Component {
                                                             </Link>
                                                         </div>
                                                         <h5 className="sub-title mt-4 text-white pt-2 text-uppercase">Surreal</h5>
-                                                        <h1 className="title mt-4 text-white text-uppercase">We Make Dreams<br/> Come True.</h1>
+                                                        <h1 className="title mt-4 text-white text-uppercase">Cross one off<br/> the bucket list</h1>
+                                                        <p className="text-white mt-4 f-18">All of the planning and perks, it's taken care of! 
+                                                            <br/> You know people who know people.</p>
                                                         <div className="pt-4 mt-1">
                                                             <Link to="#" className="btn btn-outline-white mt-2 mr-3">Get Started</Link>
                                                             <Link to="#" className="btn btn-primary mt-2">Purchase Now</Link>
@@ -121,9 +123,9 @@ class Section extends Component {
                                                                 <i className="mdi mdi-play play-icon-circle play play-icon f-30"></i>
                                                             </Link>
                                                         </div>
-                                                        <h1 className="title mt-4 pt-3 text-white text-uppercase">Why Wait? Surreal<br/>Right Now!</h1>
-                                                        <p className="text-white mt-4 f-18">Vivamus sodales eleifend odio eget mollis Cras consectetur nisi quis pulvinar
-                                                            <br/> laoreet Nulla facilisi Maecenas eget velit laoreet.</p>
+                                                        <h1 className="title mt-4 pt-3 text-white text-uppercase">Make your next adventure cheap and easy</h1>
+                                                        <p className="text-white mt-4 f-18">All of the planning and perks, it's taken care of! 
+                                                            <br/> You know people who know people.</p>
                                                         <div className="pt-4 mt-1">
                                                             <Link to="#" className="btn btn-outline-white mt-2 mr-3">Get Started</Link>
                                                             <Link to="#" className="btn btn-primary mt-2">Purchase Now</Link>
@@ -141,9 +143,9 @@ class Section extends Component {
                                                             <i className="mdi mdi-play play-icon-circle play play-icon f-30"></i>
                                                         </Link>
                                                     </div>
-                                                    <h1 className="title mt-4 text-white text-uppercase">We Are a Travel Agency <br/> Focused On Quality</h1>
-                                                    <p className="text-white mt-4 f-18">Vivamus sodales eleifend odio eget mollis Cras consectetur nisi quis pulvinar
-                                                        <br/> laoreet Nulla facilisi Maecenas eget velit laoreet.</p>
+                                                    <h1 className="title mt-4 text-white text-uppercase">All your travel services <br/> in one easy bundle</h1>
+                                                    <p className="text-white mt-4 f-18">All of the planning and perks, it's taken care of!
+                                                        <br/> You know people who know people.</p>
                                                     <div className="pt-4 mt-1">
                                                         <Link to="#" className="btn btn-outline-white mt-2 mr-3">Get Started</Link>
                                                         <Link to="#" className="btn btn-primary mt-2">Purchase Now</Link>
